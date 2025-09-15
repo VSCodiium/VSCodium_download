@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verificación de Cuenta</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #000000, #1c1c1c);
+        color: #eee;
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 60px auto;
+        background: #111;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(255,0,0,0.25);
+        overflow: hidden;
+        animation: fadeIn 0.8s ease-in-out;
+        border: 1px solid #333;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .header {
+        text-align: center;
+        padding: 40px 20px 30px 20px;
+        background: linear-gradient(to right, #8b0000, #330000);
+        color: #fff;
+    }
+
+    .header img {
+        max-width: 90px;
+        margin-bottom: 15px;
+        filter: drop-shadow(0px 2px 3px rgba(0,0,0,0.7));
+    }
+
+    .header h1 {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #ff4d4d;
+        text-shadow: 0 0 6px rgba(255,0,0,0.7);
+    }
+
+    .content {
+        padding: 30px 25px;
+        font-size: 16px;
+        background-color: #1a1a1a;
+        color: #ddd;
+    }
+
+    .content p {
+        margin-bottom: 18px;
+    }
+
+    .content h3 {
+        margin: 25px 0;
+        text-align: center;
+        color: #ff4d4d;
+        font-size: 20px;
+        font-weight: 600;
+        text-shadow: 0 0 8px rgba(255,0,0,0.7);
+    }
+
+    .button {
+        display: inline-block;
+        background: linear-gradient(to right, #ff0000, #8b0000);
+        color: #fff;
+        padding: 14px 35px;
+        text-decoration: none;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 12px rgba(255,0,0,0.6);
+    }
+
+    .button:hover {
+        background: linear-gradient(to right, #cc0000, #660000);
+        transform: scale(1.07);
+        box-shadow: 0 0 18px rgba(255,0,0,0.8);
+    }
+
+    .footer {
+        text-align: center;
+        padding: 15px;
+        font-size: 12px;
+        color: #aaa;
+        background: #0d0d0d;
+        border-top: 1px solid #222;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <img src="https://www.kali.org/images/kali-tools-icon-missing.svg" alt="Logo">
+        <h1>Kali Linux</h1>
+    </div>
+
+    <div class="content">
+        <p><em>⚠️ Práctica en laboratorio ⚠️</em></p>
+
+        <h3>Has sido hackeado por <strong>“El Inge 🛠️”</strong></h3>
+
+        <p>
+            Detectamos un inicio de sesión sospechoso en su cuenta.  
+            Por motivos de seguridad, necesitamos que confirme su identidad.
+        </p>
+
+        <p style="text-align:center;">
+            <a href="http://192.168.1.10/phishing" class="button">Verificar</a>
+        </p>
+    </div>
+
+    <div class="footer">
+        © 2025 Kali Linux. Todos los derechos ahora son míos 🔥
+    </div>
+</div>
+
+</body>
+</html>
